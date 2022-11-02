@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact us page</title>
+</head>
+<body>
+
+    <section class="contact-container">
+  <h2 class="contact-heading"> Contact Us</h2>
+ 
+  <div class="contact-findUs">
+<div class="contact-location"> 
+    <div>
+        <img src="./contact-images/map-pin-line4.svg" class="contact-location" alt="contact-location">
+    </div>
+   
+    
+    <h4 class=" Wuse-Zone-6"> Tech Specialist, Wuse Zone 6 </h4>
+</div>
+<div class="contact-number">
+    <img src="./contact-images/phone-line.svg" alt="contact-number">
+    <h4> 08082957336,</h4>
+    <h4> 08082957336</h4>
+</div>
+<div class="contact-email">
+    <img src="./contact-images/mail-line.svg" alt="contact-email">
+    <h4> agroease@gmail.com</h4>
+</div>
+</div>
+
+<!-- Form -->
+
+<div class="form-container">
+
+    <form class="contact-form">
+<h2 class="contactRequest-form"> Request Form </h2>
+
+<input type="text" placeholder="Name" name="name" id="name" required>
+<input type="email" placeholder=" Email" name="email" id="email" required>
+<input type="tel" placeholder="Phone" name="tel" id="tel" required>
+
+<textarea id="contact-textarea" name="contact-textarea" rows="10" cols="65"  placeholder="Message..." required></textarea>
+
+    
+<button class="contact-button" type="button">Send Message</button>
+</form>
+
+</div>
+
+</section>
+
+
+
+    <!-- ---------------OVERLAY -->
+<div id="pop-up-modal">
+    <div id="contact-thanks">
+        <h3 class="thanks-h3">Thank You For Contacting Us</h3>
+        <button class="contact-close" id="close-modal">Close</button>
+    </div>
+    <div id="overlay"></div>
+</div>
+    
+</body>
+</html>
